@@ -1,0 +1,54 @@
+/* Estilos para los formularios */
+form {
+    margin: 10px;
+}
+/* Estilos para los h1 */
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+/* Estilos para etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+/* Estilos para los botones */
+input[type="submit"] {
+    background-color: #317bca;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para los enlaces */
+div a{
+    text-align: center;
+    width: 1rem;
+    text-decoration: none;
+    padding: 50px;
+    border: 3px solid blue;
+}
+
+select{
+    background-color: #c98a46;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
