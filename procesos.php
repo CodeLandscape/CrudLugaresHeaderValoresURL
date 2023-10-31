@@ -1,19 +1,23 @@
 <?php
 
-    require_once("crudLugares.php");
-    require_once("mostrar.php");
+    // require_once("crudLugares.php");
 
-    echo $_GET["valor"];
+    $id=$_GET['id'];
+    $proceso= $_GET["valor"];
+    echo "Has borrado esta ip: ".$id;
+    echo $proceso;
 
-    if($_GET["valor"]=="borrar")
+    if($proceso=="borrar")
     {
         echo "Estoy en borrar";
-        $listado->borrarLugar($ip);
+        echo "quiero borrar esta ip:".$id;
+        header("Location:borrar.php?ip=" . $id);
     }
 
-    if($_GET["valor"]=="modificar")
+    if($proceso=="modificar")
     {
         echo "Estoy en modificar";
+        header("Location:modificar.php");
     }
 ?>
 
