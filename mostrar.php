@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mostrar todos los lugares</title>
     <link rel="stylesheet" href="estilo.css">
+    <link href=”https://fonts.googleapis.com/css?family=Pacifico” rel=”stylesheet”>
+
 </head>
 <body>
     <?php

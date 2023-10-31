@@ -1,10 +1,21 @@
+@font-face {
+    font-family: fuente;
+    src: url(descarga.ttf);
+}
+
+body{
+    font-family: fuente;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans+Kawi&family=Noto+Serif+Display&family=Noto+Serif+JP&family=Poppins&display=swap');
+
 /* Estilos para los formularios */
 form {
     margin: 10px;
 }
 /* Estilos para los h1 */
 h1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Pacifico',cursive;
     font-weight: bolder;
 }
 
@@ -51,4 +62,8 @@ select{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+td{
+    font-family: 'Noto Serif JP', serif;
 }

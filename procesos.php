@@ -3,22 +3,22 @@
     // require_once("crudLugares.php");
 
     $id=$_GET['id'];
-    $proceso= $_GET["valor"];
-    echo "Has borrado esta ip: ".$id;
-    echo $proceso;
+    $valor= $_GET["valor"];
+   
 
-    if($proceso=="borrar")
+    if($valor=="borrar")
     {
         echo "Estoy en borrar";
         echo "quiero borrar esta ip:".$id;
-        header("Location:borrar.php?ip=" . $id);
+        header("Location:borrar.php?id=" . $id);
     }
 
-    if($proceso=="modificar")
+    if($valor=="modificar")
     {
         echo "Estoy en modificar";
-        header("Location:modificar.php");
+        header("Location:modificar.php?id=".$id);
     }
+
 ?>
 
 

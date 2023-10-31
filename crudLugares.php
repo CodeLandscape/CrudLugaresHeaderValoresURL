@@ -1,7 +1,7 @@
 <?php
 
     require_once("configdb.php");
-    require_once("mostrar.php");
+    // require_once("mostrar.php");
     
     class CrudLugares{
 
